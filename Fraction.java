@@ -43,12 +43,6 @@ public class Fraction{
    }
      
    public static void divide(int num1, int den1, int num2, int den2){
-     num1 = 2;
-     den1 = 4;
-     
-     num2 = 6;
-     den2 = 4;
-     
      int nresult = num1 * den2;
      int dresult = den1 * num2;
      System.out.println(nresult + "/" + dresult);
