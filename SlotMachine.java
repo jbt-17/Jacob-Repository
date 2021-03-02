@@ -8,9 +8,9 @@ public class SlotMachine{
       System.out.println("Press r to take a chance at the slot machine. (press n to cancel)");
       uInpt = scan.nextLine();
       while(uInpt.equals("r")){
-         int slot1 = (int)(Math.random() * 9);
-         int slot2 = (int)(Math.random() * 9);
-         int slot3 = (int)(Math.random() * 9);
+         int slot1 = (int)((Math.random() * 9) + 1);
+         int slot2 = (int)((Math.random() * 9) + 1);
+         int slot3 = (int)((Math.random() * 9) + 1);
          
          System.out.println("1: |" + slot1 + "| 2: |" + slot2 + "| 3: |" + slot3 + "|");
          if(slot1 == slot2 && slot1 == slot3 && slot2 == slot3){
